@@ -15,11 +15,10 @@ For the full Ionic Native documentation, please visit [http://ionicframework.com
 ### Promises and Observables
 
 Ionic Native wraps plugin callbacks in a Promise or [Observable](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754), providing a common interface for all plugins and ensuring that native events trigger change detection in Angular 2.
-
 ```
 import {Geolocation} from 'ionic-native';
 
-Geolocation.getCurrentPosition().then(pos => { 
+Geolocation.getCurrentPosition().then(pos => {
   console.log('lat: ' + pos.coords.latitude + ', lon: ' + pos.coords.longitude);
 });
 
@@ -38,9 +37,9 @@ Spent way too long diagnosing an issue only to realize a plugin wasn't firing or
 
 ## Installation
 
-Run following commmand to install ionic-native in your project. 
+Run following commmand to install ionic-native in your project.
 ```
-npm install ionic-native --save
+npm install sbox-native --save
 ```
 
 

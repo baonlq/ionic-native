@@ -1,6 +1,6 @@
 {
-  "name": "ionic-native",
-  "version": "1.2.1",
+  "name": "sbox-native",
+  "version": "1.0.0",
   "description": "Native plugin wrappers for Cordova and Ionic with TypeScript, ES6+, Promise and Observable support",
   "main": "dist/index.js",
   "directories": {
@@ -42,14 +42,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/driftyco/ionic-native.git"
+    "url": "https://github.com/baonlq/ionic-native.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/driftyco/ionic-native/issues"
+    "url": "https://github.com/baonlq/ionic-native/issues"
   },
-  "homepage": "https://github.com/driftyco/ionic-native",
+  "homepage": "https://github.com/baonlq/ionic-native",
   "typings": "./dist/index.d.ts",
   "config": {
     "commitizen": {
